@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+}
+
+/*  Contenedor del parrafo principal */
+
+.contenedor p{
+    background-color: gray;
+    padding:30px;
+    position: relative;
+    color: lightblue;
+  	margin-right: 0px;
+}
+
+.contenedor div{
+    background-color: gray;
+    padding:30px;
+    position: relative;
+    color: lightblue;
+  	margin-right: 0px;
+}
+
+/* Header */
+.seccion-header {
+	background: black;
+	clear: both;
+	overflow: hidden;
+	padding: 5px;
+	border-bottom: 2px solid #ffb320;
+}
+
+/* Logo del menu */
+
+.site-logo {
+	display: inline-block;
+	float: left;
+	width : 100px;
+	height: 100 px;
+	padding-top: 2px;
+  position: relative;
+}
+
+
+/* Menu Principal */
+
+.main-menu {
+	float: right;
+	margin-right: 100px;
+	margin-top: 1%;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	margin-left: 45px;
+	padding: 10px 5px;
+}
+
+.main-menu ul li a:hover {
+	color: yellow;
+}
+.main-menu ul li {
+	display: inline-block;
+}
+
+
+/* Imagenes Responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    float: left;
+    position: static;
+}
+
+
+/* Toda la seccion del footer*/
+
+.seccion-footer {
+	overflow: hidden;
+	background: #252525;
+  color: white;
+}
+
+.seccion-footer div{
+  background: #252525;
+  color: white;
+  display: run-in;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+  font-size: 20px;
+	font-weight: 500;
+  color: white;
+  background: black;
+	margin-left: 30px;
+}

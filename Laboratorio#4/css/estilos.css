@@ -1,0 +1,104 @@
+/*Tipo de letra y color para todo el documento html*/
+body{
+    background: #002A52;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Clase encabezado para personalizar*/
+.encabezado{
+    width: auto;
+    height: 150px;
+    background: #003B5F;
+    border: 5px solid #0085D6;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+/*Colocacion y tamanio de la imagen*/
+.imagen-header{
+    float: right;
+    width: 100px;
+    margin-top: -50px;
+}
+
+/*Menu principal*/
+.menu{
+    float: inherit;
+    background: #006E97;
+    margin: 10px;
+    border: 5px solid #0085D6;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+}
+
+.menu ul li a{
+    display: inline-block;
+    margin-left: 45px;
+	  padding: 15px 35px;
+}
+
+/*Efecto de color blanco en los enlaces del menu*/
+.menu ul li a:hover{
+  color: white;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.nav{
+  font-size: 30px;
+  color: black;
+}
+
+/*Contenedor principal del contenido de la pagina*/
+
+.contenedor{
+  width: auto;
+  margin: 10px;
+  position: sticky;
+  border: 5px solid #0085D6;
+  padding: 50px;
+  text-align: center;
+  overflow: hidden;
+  background: #00275D;
+  color: #E5E5E5;
+  font-size: 15px;
+}
+
+/*Seccion alineada con el aside*/
+
+.contenedor-seccion{
+  width: 54%;
+  float: left;
+  margin: 20px;
+  border: 5px solid #0085D6;
+  padding: 25px;
+  background: #003784;
+  text-align: justify;
+}
+
+/*Aside alineado con la seccion*/
+
+.contenedor-aside{
+  width: 34%;
+  float: right;
+  margin: 20px;
+  border: 5px solid #0085D6;
+  padding: 25px;
+  background: #003F97;
+  text-align: justify;
+}
+
+/*Personalizacion del pie de pagina*/
+.piepagina {
+  border: 5px solid #0085D6;
+  padding: 50px;
+  text-align: center;
+  background: #0068A9;
+  color: aliceblue;
+}

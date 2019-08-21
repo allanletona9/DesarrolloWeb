@@ -1,0 +1,135 @@
+/*Tipo de letra y margenes para toda la pagina web*/
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    background: #EFEDED;
+}
+
+/*Estilo para el encabezado*/
+.encabezado{
+    background: black;
+    width: auto;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    position: relative;
+}
+
+
+/*Posicion y tamaño de las imagenes*/
+.imagen-encabezado{
+    float: left;
+    width: 5em;
+}
+
+.imagen-encabezado2{
+    float: right;
+    width: 5em;
+}
+
+
+
+/*Personalizacion del menu principal*/
+.menu-principal{
+    background: #262626;
+    float: inherit;
+    position: sticky;
+    color: whitesmoke;
+    text-align: center;
+    width: auto;
+    
+}
+
+.menu-principal ul li{
+    display: inline-block;
+}
+
+.menu-principal ul li a{
+    display: inline-block;
+    margin-left: 45px;
+    padding: 15px 35px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-principal ul li a:hover{
+    background-color: #EF2100;
+}
+
+
+/*Contenido Principal de la pagina web*/
+.articulo{
+    width: auto;
+    position: sticky;   
+    padding: 5px;
+    overflow: hidden;
+    color: black;   
+}
+
+.section1{
+    width: 55%;
+    margin: 10px;
+    padding: 50px;
+    border: 3px solid #FFFF;
+    float:left;
+    background: white;
+    text-align: justify;
+}
+
+.aside{
+    width: 25%;
+    margin: 10px;
+    padding: 50px;
+    border: 3px solid #FFFF;
+    background: white;
+    float: left;
+    text-align: justify;
+    overflow: scroll;
+}
+
+
+/*Pie de pagina (footer) */
+
+h3{
+    color:white;
+    text-align: center;
+}
+
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+    float: right;
+    margin: 20px;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    color: #FFDD20;
+}
+
+.copyright {
+    font-size: 14px;
+	float: left;
+    color: #aeaeae;
+    margin: 20px;
+}
+

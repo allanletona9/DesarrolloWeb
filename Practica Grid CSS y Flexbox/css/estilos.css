@@ -1,0 +1,52 @@
+h2{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "head head"
+    "menu main"
+    "foot foot";
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+
+    justify-items: stretch;
+}
+
+.a { 
+    grid-area: head; background: blue;
+    color: white;
+}
+.b { 
+    grid-area: menu; background: red; 
+}
+.c { 
+    grid-area: main; background: green;
+    color: white;
+}
+.d {
+     grid-area: foot; background: orange;
+}
+
+.box{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap;
+    border: blue 5px solid;
+    justify-items: flex-start;
+}
+
+.uno {
+    flex: 1 1 auto;
+    border: black 2px solid;
+  }
+
+  .dos {
+    flex: 1 1 auto;
+    border: red 2px solid;
+  }
+
+  .tres {
+    flex: 1 1 auto;
+    border: green 2px solid;
+  }

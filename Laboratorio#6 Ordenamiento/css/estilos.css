@@ -68,124 +68,144 @@ h1,h2
   
 }
 
-.diseno1
+.caja0
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:320px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno2
+.caja1
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:391px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno3
+.caja2
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:460px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno4
+.caja3
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:528px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno5
+.caja4
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:598px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno6
+.caja5
 {
   text-align: center;
+  color: white;
   border-style: solid; 
+  border: 3px solid #002C30;
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:663px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno7
+.caja6
 {
   text-align: center;
+  color: white;
   border-style: solid; 
+  border: 3px solid #002C30;
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:731px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno8
+.caja7
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:800px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno9
+.caja8
 {
-  text-align: center;
+  text-align: center;  
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:870px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
-.diseno10
+.caja9
 {
   text-align: center;
+  color: white;
+  border: 3px solid #002C30;
   border-style: solid; 
   border-width: 4px;
   width: 45px;
   height: 45px;
   margin-left:940px;
   margin-top:-53px;
-  background-color: orange; 
+  background-color: #008792; 
 }
 
 

@@ -1,3 +1,4 @@
+/*Estilos del formulario*/
 form {
     width: 100%;
     max-width: 400px;
@@ -8,6 +9,7 @@ form {
     background: #fafafa;
   }
 
+  /*Estilos para el textfield donde se ingresan los datos*/
   input[type=textfield] {
       width: 75%;
       padding: 16px 32px;
@@ -19,6 +21,7 @@ form {
       color: #333;
       background: #ccc;
   }
+
   input[type=button], input[type=submit], input[type=reset] {
       background-color:gray;
       border: solid 1px black;
@@ -29,6 +32,8 @@ form {
       margin: 4px 2px;
       cursor: pointer;
   }
+
+  /*Estilos para cuando el cursor pase sobre el boton*/
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-    background-color: #333;
+    background-color: #333; /*Color del efecto*/
   }
